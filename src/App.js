@@ -30,8 +30,6 @@ const Collapsible = styled.div`
 `;
 
 const File = ({ name }) => {
-  let ext = name.split(".")[1];
-
   return (
     <StyledFile>
       <span>{name}</span>
